@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*$py.class
+
+# Virtual environment
+venv/
+.env
+
+# VS Code settings
+.vscode/
+
+# Docker
+*.log
+*.pid
+*.sock
+*.db
+*.sqlite3
+*.tar
+*.tar.gz
+docker-compose.override.yml
+
+# Docker build files and volumes
+**/docker-volume/
+**/tmp/
+**/.mypy_cache/
+**/.pytest_cache/
+**/.tox/
+**/.coverage
+**/.cache/
+**/htmlcov/
+
+# Distribution / packaging
+*.egg-info/
+dist/
+build/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Git conflict files
+*.orig
